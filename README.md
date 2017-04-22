@@ -4,6 +4,21 @@
 
 Log in into your [IFTTT](https://ifttt.com) account and create a new *Make a web request* from *spotify*:
 
+parameters:
+- {{UserToken}} Yours Github`s token
+- {{RepoOwner}} Yours Github`s user name
+- {{RepoName}} Yours Github`s repo name
+- {{TrackName}} Track name
+- {{AlbumName}} Album Name
+- {{ArtistName}} Artist Name
+
+body content:
+```javascript
+{
+  TrackURL: 'link to your song'
+}
+```
+
 https://wt-51209ddc02bcaaec1e0ef3b8032054f4-0.run.webtask.io/playlists?UserToken={{UserToken}}&RepoOwner={{RepoOwner}}&RepoName={{RepoName}}&TrackName={{TrackName}}&AlbumName={{AlbumName}}&ArtistName={{ArtistName}}
 
 ## References
