@@ -1,5 +1,7 @@
 # IFTTT channel to save your favorites songs from spotify into your repo
 
+![alt tag](https://raw.githubusercontent.com/renanvalentin/playlist/master/docs/ss.png)
+
 ## Setup
 
 Log in into your [IFTTT](https://ifttt.com) account and create a new *Make a web request* from *spotify*:
